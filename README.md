@@ -10,9 +10,7 @@ For more information, see Section 2.3 in my [PhD thesis](http://academiccommons.
 * At the heart of our code is the importance sampling Monte Carlo integration algorithm,
 which is built from first principles. In general, importance sampling is one of the best
 variance reduction techniques for estimating an integral using the Monte Carlo integration
-method. It samples points according to some probability distribution function p(x), so
-that the points are concentrated in the regions that make the largest contribution to the
-integral.
+method. 
 
 * The relevant formula for gluon distribution is notoriously complicated (a 3n-dimensional
 integral at opacity order n), but we were able to construct a relatively fast automated numerical integration code, 
